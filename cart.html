@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://unpkg.com/feather-icons"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+        <link rel="icon" href="img/img1.png">
+        <title>Angulu Store</title>
+        <style>
+             body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    form {
+      margin: 30px 0;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="text"], textarea {
+      padding: 10px;
+      margin-bottom: 20px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Angulu Store</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+       <span style="margin-left: 1000px;">
+        <a href="index.html"> <i data-feather="home" style="color: black;">Home</i> </a>
+       <a href="login.html"> <i data-feather="user" style="color: black;">User</i></a>
+        <i data-feather="share-2">Share</i>
+       </span>
+       
+      </div>
+    </div>
+  </div>
+</nav>
+   <h1 style="margin-left: 60px; font-size: x-larger; margin-top: 10px;">Checkout</h1>
+  
+   
+            <img src="img/img6.jpg" alt="" style="height: 200px;">
+            <hr style="color: black;">
+            <h1>Boots</h1>
+            <p>Product Name  $299.00
+                <br>
+                shipping $9.00
+                <hr style="width: 20%;">
+                Total   $308.00
+
+            </p>
+            <form action="submit-form.php" method="post">
+                <label for="email">Email:</label>
+                <input type="text" id="name" name="name" required>
+          
+                <label for="number">Card information:</label>
+                <input type="number" id="email" name="email" required>
+                <label for="number">CVC:</label>
+                <input type="number" id="email" name="email" required>
+                <label for="number">MM/YY:</label>
+                <input type="number" id="email" name="email" required>
+                <br>
+                <br>
+                <br>
+                
+                  <button style="margin-left: 600px; background-color: red;">
+                    <a href="confirmation.html">
+                      Purchase
+                    </a>
+                   
+                  </button>
+               
+              </form>
+  
+    </body>
+    <footer>
+         <script>
+        feather.replace()
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    </footer>
+</html>
